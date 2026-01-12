@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(112, 112, 158);
+    font-family: 'Roboto',sans-serif;
+}
+
+.signup-box
+{
+width: 360px;
+height: 620px;
+margin:  auto;
+background-color: white;
+border-radius: 3px;
+
+}
+
+h1{
+    text-align: center;
+    padding-top: 15px;
+}
+
+form{
+    width: 300px;
+    margin-left: 20px;
+}
+
+form label{
+    display:flex;
+    margin-top: 50px;
+    font-size: 18px;
+
+}
+
+form input{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border:1px solid grey;
+    border-radius: 6px;
+    outline: none;
+}
+
+input[type="button"]{
+    width: 320px;
+    height: 35px;
+    margin-top: 50px;
+    border: none;
+    background-color:rgb(203, 203, 83);
+    color:white;
+    font-size: 18px;
+}
+
+#btn1{
+    margin-top: 20px;
+    font-size: 35px;
+
+
+}

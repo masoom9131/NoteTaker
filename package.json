@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "init": "^0.1.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.4",
+    "nodemon": "^3.0.2"
+  },
+  "name": "notetaker",
+  "version": "1.0.0",
+  "main": "notetaker.js",
+  "type": "module",
+  "scripts": {
+    "start": "node./abc.js",
+    "dev": "nodemon./abc.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

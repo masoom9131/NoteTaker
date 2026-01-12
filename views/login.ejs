@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/login.css">
+</head>
+<body>
+    <%- include('./header.ejs') %>
+    <div class="login-box">
+        <h1>Login</h1>
+        <form action="/login" method="post">
+            <label>email</label>
+            <input type="email" placeholder="guptamasoom16@gmail.com"   >
+            <label>password</label>
+            <input type="password" >
+            <center>
+            <button id="btn1" type="submit"> Login </button> 
+            </center>
+    
+        </form>
+</body>
+</html>

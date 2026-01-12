@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/notetaker1.css">
+</head>
+<body>
+    <%- include('./header.ejs') %>
+ <center>
+        <h1> Note TAKER PRO</h1>
+        
+        <form  action="/notes" method="post">
+            <textarea rows="6" cols="60" placeholder="  Enter your note...." id="myText"></textarea>
+            <br><button id="addBt">Add Note</button>
+        </form>
+
+    <fieldset>
+        <legend>Your notes are here....</legend>
+        <section id="noteslist"></section>
+    </fieldset>
+
+    <a href="/logout" id="logout">LOGOUT</a>
+</center>
+</body>
+</html>

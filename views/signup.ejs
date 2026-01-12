@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/signup.css">
+</head>
+<body>
+    <%- include('./header.ejs') %>
+   <div class="signup-box">
+    <h1>Sign Up</h1>
+        <form action="/signup" method="post">   
+        <label>Name</label>
+        <input type="text" >
+        <label>Email</label>
+        <input type="email"   >
+        <label>Password</label>
+        <input type="password" >
+<center>
+        <button id="btn1" type="submit"> Signup </button> 
+        
+
+    </form>
+    </center>
+   </div>
+            
+</body>
+</html>
